@@ -22,6 +22,10 @@ qdrant-client
 # --- Utilidades ---
 tiktoken 
 
+# --- Pruebas ---
+pytest
+pytest-mock
+
 # --- Herramientas de Calidad de Código ---
 ruff
 mypy
