@@ -1,0 +1,31 @@
+# --- Frameworks de API y Servidor ---
+fastapi
+uvicorn[standard]
+slowapi
+
+# --- Validación y Configuración ---
+pydantic==2.*
+python-dotenv
+
+# --- Logging ---
+structlog
+
+# --- Ecosistema LangChain y Modelos ---
+langchain
+langchain-openai
+sentence-transformers # Para cargar modelos de Hugging Face
+
+
+# --- Base de Datos Vectorial ---
+qdrant-client
+
+# --- Utilidades ---
+tiktoken 
+
+# --- Herramientas de Calidad de Código ---
+ruff
+mypy
+
+# --- Configuración de PyTorch para CPU-only ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
