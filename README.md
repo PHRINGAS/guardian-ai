@@ -39,7 +39,7 @@ El proyecto está diseñado como un sistema de microservicios desacoplado, sigui
   - **Modelos:**
     - **Embeddings:** OpenAI text-embedding-3-large.
     - **Reranker:** Open Source BAAI/bge-reranker-base ("horneado" en la imagen de Docker para arranques rápidos).
-    - **Generación:** OpenAI gpt-4o.
+    - **Generación:** OpenAI gpt-5-mini.
 
 - **Seguridad y Red:**
   - **Gestión de Secretos:** Todas las claves de API se gestionan de forma segura a través de **Google Secret Manager**.
